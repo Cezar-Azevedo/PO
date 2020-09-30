@@ -1,8 +1,12 @@
 maior = 0
+menor = 0
 soma = 0
 media  = 0
+n = 0
 
-menor = int(input('Digite um numero: '))
+n = int(input('Digite um numero: '))
+menor = n
+maior = n
 for i in range(9):
     n = int(input('Digite um numero: '))
     soma += n
